@@ -6,9 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: rgb(247, 233, 134);">
+    <h1 style="background-color: aqua;color: blue;">Đăng ký học viên</h1>
     <form action="GET">
-
+        <table border="0">
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type=" text" name="Name" id="" style="width: 235px;"></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh</td>
+                <td><input type="date" name="Date" id="" style="width: 235px;"></td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td><input type="radio" name="Nam" id="">Nam 
+                <input type="radio" name="Nam" id="">Nữ </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><textarea name="address" id="" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Lớp</td>
+                <td><select id="Chonlop" name="Chon lop" style="width: 100px;">
+                    <option value="Class">Chonlop</option>
+                    <option value="Class">A</option>
+                    <option value="Class">B</option>
+                    <option value="Class">C</option>
+                  </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" id="" style="width: 235px;"></td>
+            </tr>
+            <tr>
+                <td>
+                    Điện thoại
+                </td>
+                <td><input type="tel" name="phone" id="" style="width: 235px;"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="Đăng ký" id="">
+                <input type="reset" name="reset" id=""></td>
+            </tr>
+        </table>
     </form>
 </body>
 </html>
